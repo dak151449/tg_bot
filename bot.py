@@ -1,9 +1,10 @@
+# библиотеки для бота
 from aiogram import Bot, Dispatcher, executor, types
 from aiogram.utils.markdown import text, bold, italic, code, underline, strikethrough
 import io
-#from style_transfer import run
+################
 
-#class_style
+#библиотеки для алгоритма style transfer 
 from PIL import Image
 import asyncio
 
@@ -19,7 +20,7 @@ import torchvision.transforms as transforms
 import torchvision.models as models
 
 import copy
-
+############
 class ContentLoss(nn.Module):
 
         def __init__(self, target,):

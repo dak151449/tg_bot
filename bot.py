@@ -252,7 +252,7 @@ async def run(style_img, content_img):
 
 dict_images = {} # словарь, который будет по ключу(id user) хранить первую отправленную фотографию, если такой нет, то будем добавлять её в словарь
 
-bot = Bot(token="1822327417:AAHrThho7174w0c9ghwGwRRjtG3AkMhQ7oE")  # инициализация
+bot = Bot(token="ТОКЕН")  # инициализация, введите свой ткоен
 dp = Dispatcher(bot)
 
 @dp.message_handler()
